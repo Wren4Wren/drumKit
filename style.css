@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cookie&family=Dancing+Script:wght@400;500&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,wght@0,400;1,300&family=Ms+Madi&family=Quicksand:wght@300;500&family=Roboto:wght@300;400&family=Updock&display=swap');
+
+*{ /*this gives css a base to work off and override*/
+    box-sizing: border-box;
+    font-family: 'merriwwather', serif;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+}
+.page{
+    background-color: blanchedalmond;
+}
+.page>.help {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 100px;
+    justify-content: space-around;
+    flex-wrap: wrap
+}
