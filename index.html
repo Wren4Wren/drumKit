@@ -8,53 +8,46 @@
     <title>Drum Kit</title>
 </head>
 <body>
-    <Header>
+    <Header id="myHeader">
         <h1>Drumkit</h1>
     </Header>
     <div class="page">
         <div class="help">
-            <div class="drum">
+            <div data-key="65" id="bassDrum" class="drum">
                 <p class="title">Bass Drum</p>
                 <p class="letters">A</p>
-                <audio id="bass" src="kickStomp.wav"></audio>
             </div>
-            <div class="drum">
+            <div data-key="83" id="floorTom" class="drum">
                 <p class="title">Floortom</p>
                 <p class="letters">S</p>
-                <audio id="ft" src="floorTom.wav"></audio>
             </div>
-            <div class="drum">
+            <div data-key="68" id="tomSmall" class="drum">
                 <p class="title">Tom-tom (small)</p>
                 <p class="letters">D</p>
-                <audio id="tts" src="tomSmall.wav"></audio>
             </div>
-            <div class="drum">
+            <div data-key="70" id="tomLarge" class="drum">
                 <p class="title">Tom-tom (large)</p>
                 <p class="letters">F</p>
-                <audio id="ttl" src="tomLarge.wav"></audio>
             </div>
-            <div class="drum">
+            <div data-key="71" id="snare" class="drum">
                 <p class="title">Snare Drum</p>
                 <p class="letters">G</p>
-                <audio id="snare" src="snare.wav"></audio>
             </div>
-            <div class="drum">
+            <div data-key="72" id="crash" class="drum">
                 <p class="title">Crash Cymbal</p>
                 <p class="letters">H</p>
-                <audio id="crash" src="crash.wav"></audio>
             </div>
-            <div class="drum">
+            <div data-key="74" id="ride" class="drum">
                 <p class="title">Ride Cymbal</p>
                 <p class="letters">J</p>
-                <audio id="ride" src="ride.wav"></audio>
             </div>
-            <div class="drum">
+            <div data-key="75" id="hiHat" class="drum">
                 <p class="title">Hi-hat Cymbal</p>
                 <p class="letters">K</p>
-                <audio id="hiHat" src="hihat.wav"></audio>
             </div>
         </div>
-        <div id="secondPage">
+        <!-- <div id="secondPage">
+            ((((shhhhhh - this no ready!))))
             <div class="bassContainer">
                 <div id="bassDrum">
                     <div class="drumBody">
@@ -109,7 +102,7 @@
                 <div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="shadow"></div>
     </div>
     <script src="app.js"></script>
